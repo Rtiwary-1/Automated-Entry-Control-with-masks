@@ -5,10 +5,7 @@ from tensorflow.keras.models import load_model
 from imutils.video import VideoStream
 import numpy as np
 import imutils
-import time
 import cv2
-import os
-import tkinter as tkk
 from tkinter import messagebox as mb
 
 def detect_and_predict_mask(frame, faceNet, maskNet):
